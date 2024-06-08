@@ -1,0 +1,33 @@
+.cotalog{
+    padding: 18px 0;
+}
+
+.cotalog__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cotalog__link{
+    display: flex;
+    gap: 30px;
+}
+
+.cotalog__item{
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2b1414;
+}
+
+@media screen and (max-width: 1100px) {
+    .cotalog__item{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cotalog{
+        display: none;
+    }
+}
